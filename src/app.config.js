@@ -1,6 +1,7 @@
 export default {
   pages: [
-    'pages/index/index'
+    'pages/index/index',
+    'pages/mine/mine'
   ],
   window: {
     backgroundTextStyle: 'light',
@@ -9,5 +10,5 @@ export default {
     navigationBarTextStyle: 'black'
   },
   sitemapLocation: 'sitemap.json',
-  style: 'v2'
+  style: 'v2',
 }

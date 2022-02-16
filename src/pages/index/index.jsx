@@ -118,9 +118,7 @@ function Index() {
         <View className="section-content">
           <View className="result">
             <View className="result-title">
-              {
-                map[status]
-              }
+              {map[status]}
             </View>
             <View className="result-sub-title">
               {status === '1' ? '查到以下结果' : '很遗憾！请期待下次摇号'}</View>
